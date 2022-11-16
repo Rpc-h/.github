@@ -1,7 +1,7 @@
 # RPCh Processes
 
 The RPCh processes act as the single source of truth on how the RPCh _tech_ team operates.
-Before processes are committed and thus made official, they need to be approved by the [Representatives](./development.md#representatives) and the [Project Owner](./development.md#legend).
+Before processes are committed and thus made official, they need to be approved by the [Representatives](./development.md#representatives).
 
 1. [Development Process](./development.md)
 2. [Release Process](./release.md)
