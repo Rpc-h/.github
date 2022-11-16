@@ -4,8 +4,8 @@ The purpose of this process is to streamline the development of RPCh.
 
 - [Development Process](#development-process)
   - [Legend](#legend)
-    - [representatives](#representatives)
-    - [Trifecta](#trifecta)
+    - [Project owners](#project-owner)
+    - [Representatives](#representatives)
   - [Daily updates](#daily-updates)
     - [Start of work](#start-of-work)
       - [Text update](#text-update)
@@ -17,7 +17,6 @@ The purpose of this process is to streamline the development of RPCh.
       - [External issues](#external-issues)
     - [Sprint Retrospective](#sprint-retrospective)
     - [Epic Prioritization](#epic-prioritization)
-      - [The Roadmap columns](#the-roadmap-columns)
     - [Sprint Planning](#sprint-planning)
     - [Fire alarm](#fire-alarm)
   - [Development](#development)
@@ -38,13 +37,24 @@ The purpose of this process is to streamline the development of RPCh.
 | Representatives | Two RPCh members who act as the bridge between RPCh team and the rest of HOPR                              |     |
 | Issue tracker   | The sole issue tracker is [GitHub](https://github.com/rpc-h)                                               |
 
+### Project owners
+
+Responsibilities:
+
+- ensure long term vision of RPCh is in line with development
+
+Members:
+
+- Rik
+- Sebastian
+
 ### Representatives
 
 Responsibilities:
 
 - to be the bridge between RPCh and the rest of HOPR
 
-_Roles:_
+Members:
 
 - [Steven](https://github.com/nionis)
 - [Michal](https://github.com/mjadach-iv)
@@ -155,49 +165,26 @@ _When:_ last day of the sprint
 
 ### Epic Prioritization
 
-The target of prioritization are issues marked as
-[epic](https://github.com/hoprnet/hoprnet/issues?q=is%3Aissue+is%3Aopen+label%3Aepic).
-Priorities are captured on the [Roadmap](https://github.com/orgs/hoprnet/projects/15) which only contains epic issues.
+The target of prioritization are issues marked as epic.
+Priorities are captured on the [Sprint Planning project](https://github.com/orgs/Rpc-h/projects/4/views/1) which only contains epics.
 
 - epics are issues which encapsulate the work that need to be done for X feature/bug
 - epics are not bound by sprints and they can be long lived
-- closed epics are moved to `acceptance`
-- epics within `acceptance` column are accepted by [Trifecta](#trifecta) prior to the meeting
-  - unaccepted epics are moved back to `next` column with a comment explaining why it wasn't accepted
+- closed epics are moved to status `review`
+- epics within `review` status are accepted by [Representatives](#representatives) prior to the meeting
+  - unaccepted epics are moved back to next sprint with a comment explaining why it wasn't accepted
 - ensure newly created [epics](#issue-creation) are well created
-  - must use the [epic issue template](../.github/ISSUE_TEMPLATE/epic.md)
+  - must use the `epic issue template`
 - adapt epic priorities
-- make an epic if necessary for issues created by comm team in [hopr-devrel](https://github.com/hoprnet/hopr-devrel)
-
-#### The Roadmap columns
-
-- `icebox` contains epics which require further specification or are specifically paused.
-- `backlog` contains epics which are well specified but haven't been given any
-  priority to be worked on during the current sprint.
-- `next` column contains epics which are given priority to be worked on during
-  the current sprint. The priorities are descending from top to bottom. Priorites
-  with hard deadlines must be marked with the label
-  [deadline](https://github.com/hoprnet/hoprnet/labels/deadline) with more
-  information on the deadline being available within the issue's description.
-- `acceptance` column contains epics which were completed but require
-  acceptance testing from an additional team member or outside person. When moving
-  issues into `acceptance` the person who's input is required must be pinged
-  directly.
-- `done` column contains epics which were accepted. The column is cleaned up
-  as part of the `Task Grooming` phase.
-
-_Who:_ [Representatives](#representatives)
-
-_When_: first day of a sprint
 
 ### Sprint Planning
 
 The task planning follows the `Prioritization` and takes the priorities into
 account as much as possible.
 
-- Tasks and PRs which are actively worked on are gathered on the [Roadmap](https://github.com/orgs/Rpc-h/projects/1).
+- Tasks and PRs which are actively worked on are gathered on [Sprint Planning project](https://github.com/orgs/Rpc-h/projects/4/views/1).
 - Epic issues are further refined into tasks which have clear definitions of work and done.
-- Ideally each team member has only one task assigned which is in status `next`.
+- Ideally each team member has only one task assigned which is in status `in progress`.
 - members which are coming back from vacation should already have tasks assigned to them.
 
 _Who:_ all tech members within a meeting
