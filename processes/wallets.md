@@ -5,7 +5,8 @@ This process contains all wallets operated by the RPCh team.
 ## Wallets
 
 | Wallet Address | Alias | Description |
-| -------------- | ----- | ----------- |
+| - | - | - |
+| 0xD720099cBC14e669695EaE0708E6Ca614B387921 | RPCh dev bank | Wallet used to fund nodes or other accounts. |
 
 ## Policy
 
