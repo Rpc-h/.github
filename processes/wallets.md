@@ -7,6 +7,7 @@ This process contains all wallets operated by the RPCh team.
 | Wallet Address | Alias | Description |
 | - | - | - |
 | 0xD720099cBC14e669695EaE0708E6Ca614B387921 | RPCh dev bank | Wallet used to fund nodes or other accounts. |
+| 0x01BFbCB6A2924b083969ce6237AdBbF3BFa7De13 | RPCh alpha deployer | Deployer used for Alpha |
 
 ## Policy
 
