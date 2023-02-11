@@ -28,13 +28,14 @@ The purpose of this process is to streamline the development of RPCh.
       - [Daily Development](#daily-development)
       - [Releases](#releases)
     - [Branches](#branches)
+  - [RPCh dictionary](#rpch-dictionary)
 
 ## Legend
 
 | Name            | Description                                                                                                |
-| --------------- | ---------------------------------------------------------------------------------------------------------- | --- |
-| Project Owner   | A HOPR member which ensures epics prioritized are in line with both the short and long term vision of RPCh |     |
-| Representatives | Two RPCh members who act as the bridge between RPCh team and the rest of HOPR                              |     |
+| --------------- | ---------------------------------------------------------------------------------------------------------- |
+| Project Owner   | A HOPR member which ensures epics prioritized are in line with both the short and long term vision of RPCh |
+| Representatives | Two RPCh members who act as the bridge between RPCh team and the rest of HOPR                              |
 | Issue tracker   | The sole issue tracker is [GitHub](https://github.com/rpc-h)                                               |
 
 ### Project owners
@@ -281,3 +282,10 @@ See [Release Process](./release.md)
 - `release/**`: On new internal release, we cut a `release/**`
   branch.
   See [Release Process](./release.md) for more info.
+
+## RPCh dictionary
+
+| Word            | Meaning                                                    |
+| --------------- | ---------------------------------------------------------- |
+| F.A.R.          | Fat Ass Request: when an RPCh request is >100 segments     |
+| The Machine     | Diego said he is a machine                                 |
