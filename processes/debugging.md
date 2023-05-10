@@ -17,7 +17,7 @@ Please follow on of the following scenarios:
 2. Ensure that `rpc-server` has been started with the `DEBUG="rpch*"` flag.
 3. Go to your wallet, and add the custom network URL given to you by [access.rpch.net](https://access.rpch.net/).
 4. Once you attach the network URL to your wallet, you should be able to see activity in the logging of your `rpc-server`.
-   1. If you see activity, but wallet is not usable, go to step (5).
+   1. If you see activity, but wallet is not usable, try with a different wallet (MetaMask), and go to step (5).
    2. If you don't see activity, this means the wallet is not sending traffic to `rpc-server`.
       1. Ensure that `rpc-server` is accessible to the correct PORT and no other process is using it.
       2. Go to step (5)
@@ -27,7 +27,7 @@ Please follow on of the following scenarios:
 
 1. Ensure that `rpc-server` has been started with the `DEBUG="rpch*"` flag.
 2. Once you attach the network URL to your wallet, you should be able to see activity in the logging of your `rpc-server`.
-   1. If you see activity, but wallet is not usable, go to step (3).
+   1. If you see activity, but wallet is not usable, try with a different wallet (MetaMask), and go to step (3).
    2. If you don't see activity, this means the wallet is not sending traffic to `rpc-server`.
       1. Ensure that `rpc-server` is accessible to the correct PORT and no other process is using it.
       2. Go to step (3)
